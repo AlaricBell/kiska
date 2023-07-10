@@ -7,7 +7,8 @@
 - If above steps work, you should be able to visit port `9500` http://localhost:9500 and start coding! 
 
 ## How it works
-- Open / Close panel: **Escape** button
+- Open panel: **Up** arrow
+- Close panel: **Escape** button
 - Navigation: **Up / Down** arrow
 - Select option: **Enter** button
 
