@@ -30,7 +30,11 @@ export const BottomPanel = () => {
     }
 
     if (event.key === 'Escape') {
-      setIsMenuVisible(prev => !prev)
+      setIsMenuVisible(false)
+    }
+
+    if (!isMenuVisible && event.key === 'ArrowUp') {
+      setIsMenuVisible(true)
     }
 
     if (isMenuVisible && event.key === 'ArrowUp') {
