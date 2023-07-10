@@ -1,0 +1,22 @@
+.label {
+    border: none;
+    outline: none;
+
+    &-switch {
+        background-color: #3d4045;
+        color: #0094ff;
+        transition: color 1s, background-color 1s; 
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 6px 12px;
+        border-radius: 6px;
+        min-width: 120px;
+
+        &.active {
+            background-color: #0094ff;
+            color: #FFF;
+        }
+    }
+}

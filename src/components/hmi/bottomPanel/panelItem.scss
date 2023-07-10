@@ -1,0 +1,32 @@
+.panel-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px;
+    margin: 24px 0;
+    background-color: #282b30;
+    border-radius: 12px;
+    border: 2px solid transparent;
+
+    &.selected {
+        border: 2px solid #0094ff;
+    }
+
+    &.disabled {
+        opacity: .4;
+    }
+
+    &-image {
+        width: 45px;
+    }
+
+    p {
+        color: #FFF;
+        margin-left: 48px;
+        text-transform: capitalize;
+    }
+
+    div {
+        margin-left: auto;
+    }
+}

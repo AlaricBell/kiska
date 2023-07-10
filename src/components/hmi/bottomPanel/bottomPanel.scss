@@ -1,0 +1,31 @@
+.bottom-panel {
+    width: 100%;
+    max-width: 468px;
+    height: auto;
+    max-height: 740px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-top: 1px solid lighten(#161a23, 21%);
+    box-shadow: 0px -15px 15px -3px rgba(255,255,255,0.1);
+    background-color: #161a23;
+    margin-bottom: 6px;
+    padding-left: 24px;
+    padding-right: 24px;
+    overflow-y: auto;
+
+    &-overlay {
+        border-radius: 40px;
+        width: 480px;
+        height: 800px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        overflow: hidden;
+    }
+}
